@@ -10,8 +10,18 @@
         justify-content: flex-end;
         align-items: flex-start;
     }
+    @include mediaQuery(escritorio){
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    &__estrellita{
+        display: flex;
+        align-items: baseline;
+        font-size: 1rem;
+    }
 
     &__estrellita img{
-        width: 10vw;
+        width: 1.8em;
     }
 }

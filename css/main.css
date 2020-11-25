@@ -346,6 +346,7 @@ template {
   align-items: center;
   /* VARIABLES */
   /* VARIABLES */
+  /* VARIABLES */
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 420px) and (orientation: portrait) {
   .main {
@@ -358,7 +359,18 @@ template {
     align-items: flex-start;
   }
 }
+@media only screen and (min-width: 1366px) {
+  .main {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+.main__estrellita {
+  display: flex;
+  align-items: baseline;
+  font-size: 1rem;
+}
 .main__estrellita img {
-  width: 10vw;
+  width: 1.8em;
 }
 /*# sourceMappingURL=main.css.map */
