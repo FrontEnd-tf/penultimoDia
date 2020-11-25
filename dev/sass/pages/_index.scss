@@ -1,0 +1,10 @@
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__estrellita img{
+        width: 10vw;
+    }
+}
