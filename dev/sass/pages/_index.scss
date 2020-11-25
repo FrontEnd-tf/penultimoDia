@@ -3,6 +3,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @include mediaQuery(mobil){
+        align-items: flex-start;
+    }
+    @include mediaQuery(ipad){
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
 
     &__estrellita img{
         width: 10vw;

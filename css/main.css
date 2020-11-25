@@ -1,3 +1,4 @@
+/* MIXIN MEDIA QUERY'S*/
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -343,6 +344,19 @@ template {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* VARIABLES */
+  /* VARIABLES */
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 420px) and (orientation: portrait) {
+  .main {
+    align-items: flex-start;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 868px) and (orientation: portrait) {
+  .main {
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
 }
 .main__estrellita img {
   width: 10vw;
